@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLI Todo App</title>
-</head>
-<body>
     <h1>CLI Todo Application</h1>
     <p>A simple command-line todo application built using GoLang. Below are the commands and their usage:</p>
 
-    <!-- Placeholder for an image -->
     <img src="path/to/your/image.png" alt="CLI Todo App Screenshot" style="width:100%; max-width:600px; margin-bottom:20px;">
 
     <h2>Commands</h2>
@@ -54,5 +45,3 @@
             </tr>
         </tbody>
     </table>
-</body>
-</html>
