@@ -34,28 +34,36 @@ func (cf *Cmdflags) Execute(todos *Todos, storage *Storage[Todos]) {
     switch {
     case cf.List:
         todos.print()
+    
     case cf.Add != "":
         todos.add(cf.Add)
         storage.Save(*todos) // Save after adding
+
     case cf.Edit != "":
         parts := strings.SplitN(cf.Edit, ":", 2)
         if len(parts) != 2 {
             fmt.Println("Error: Invalid format for edit. Please use index:new_title format")
             os.Exit(1)
         }
+    
         index, err := strconv.Atoi(parts[0])
+        
         if err != nil {
             fmt.Println("Error: invalid index for edit")
             os.Exit(1)
         }
+        
         todos.edit(index, parts[1])
         storage.Save(*todos) // Save after editing
+    
     case cf.Toggle != -1:
         todos.toggle(cf.Toggle)
         storage.Save(*todos) // Save after toggling
+    
     case cf.Del != -1:
         todos.delete(cf.Del)
         storage.Save(*todos) // Save after deleting
+    
     default:
         fmt.Println("Invalid command")
     }

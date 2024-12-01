@@ -1,44 +1,26 @@
 [
  {
-  "Title": "",
-  "IsComplete": false,
-  "CreatedAt": "0001-01-01T00:00:00Z",
-  "CompletedAt": null
- },
- {
-  "Title": "",
-  "IsComplete": true,
-  "CreatedAt": "0001-01-01T00:00:00Z",
-  "CompletedAt": null
- },
- {
-  "Title": "",
-  "IsComplete": false,
-  "CreatedAt": "0001-01-01T00:00:00Z",
-  "CompletedAt": null
- },
- {
-  "Title": "",
-  "IsComplete": false,
-  "CreatedAt": "0001-01-01T00:00:00Z",
-  "CompletedAt": null
- },
- {
-  "Title": "",
-  "IsComplete": false,
-  "CreatedAt": "0001-01-01T00:00:00Z",
-  "CompletedAt": null
- },
- {
-  "Title": "This is the new todo being added",
+  "Title": "Editing the name of the first todo",
   "IsComplete": true,
   "CreatedAt": "2024-12-01T17:04:25.0611079+05:30",
   "CompletedAt": null
  },
  {
-  "Title": "Another incomplete todo",
+  "Title": "Adding another todo",
   "IsComplete": true,
-  "CreatedAt": "2024-12-01T17:09:31.0124221+05:30",
-  "CompletedAt": "2024-12-01T17:10:34.0403094+05:30"
+  "CreatedAt": "2024-12-01T18:08:17.0092047+05:30",
+  "CompletedAt": "2024-12-01T18:09:19.1463763+05:30"
+ },
+ {
+  "Title": "Learn rust",
+  "IsComplete": false,
+  "CreatedAt": "2024-12-01T18:10:08.3087662+05:30",
+  "CompletedAt": null
+ },
+ {
+  "Title": "Making an auto-scaling server using go",
+  "IsComplete": false,
+  "CreatedAt": "2024-12-01T18:10:32.4124287+05:30",
+  "CompletedAt": null
  }
 ]

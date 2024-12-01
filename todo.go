@@ -11,7 +11,7 @@ import (
 )
 
 type Todo struct {
-    Title      string     // Change to Title (exported field)
+    Title      string
     IsComplete bool
     CreatedAt  time.Time
     CompletedAt *time.Time
