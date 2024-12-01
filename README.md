@@ -2,7 +2,7 @@
 
 A simple command-line todo application built using GoLang. Below are the commands and their usage:
 
-![CLI Todo App Screenshot](Screenshot.png)
+![CLI Todo App Screenshot](Screenshot.jpg)
 
 ## Commands
 
